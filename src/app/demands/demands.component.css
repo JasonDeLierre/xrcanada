@@ -1,0 +1,9 @@
+
+p {
+  border-left: 2px solid #CCCCCC;
+}
+
+.skulls {
+  background-image: url("https://storage.googleapis.com/xrcanada/xr_skulls.png");
+  background-repeat: repeat
+}
