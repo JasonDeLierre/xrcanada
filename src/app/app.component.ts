@@ -15,7 +15,7 @@ export class AppComponent {
     private trans: TranslateService
   ){
 
-    trans.setDefaultLang('en')
+    trans.setDefaultLang('fr')
 
   }
 

@@ -1,5 +1,6 @@
 
 {
+
 "WHO": "Who We Are",
 "DEMANDS": "Our Demands", 
 "DEMANDS_TITLE": "OUR DEMANDS", 
@@ -40,13 +41,49 @@
 "DEMANDS_3": "Immediation cessation of the destruction of our oceanic and land ecosystems, causing massive extinctions in our natural world.", 
 "DEMANDS_4": "The creation of a Citizen's Assembly in charge of deciding the measures needed to reach goals and guarantee a just and fair transition.",
 
-"MORE_DETAILS": "PLUS DE DÉTAILS",
-"DETAILS_1": "Les “bonnes intentions”, les “accords non-contraignants” et les “feuilles de route” ne changeront rien à la situation. Nous entendons obliger le gouvernement à atteindre le zéro émissions nettes de gaz à effet de serre d’ici 2025. Notre survie et celle des autres espèces ne doivent pas dépendre d’hypothétiques et lointaines solutions technologiques. Renoncer de nous-mêmes au modèle de croissance économique actuel et à la consommation de masse avant que nous y soyons forcés par les limites planétaires est la seule option viable. Nous devons donc amorcer immédiatement une descente énergétique et l’abandon des combustibles fossiles. Cette politique devra être portée au niveau international par des accords contraignants afin d’engager un effort global à la mesure des enjeux.",
-"DETAILS_2": "Le gouvernement, les élus et les entreprises doivent reconnaître les menaces inédites pesant aujourd’hui sur l’ensemble de la biosphère, humains compris. Ils doivent assumer ouvertement leur part de responsabilité dans la destruction des écosystèmes, le changement climatique, l’épuisement des ressources naturelles, et reconnaître l’incompatibilité profonde entre le mode de développement économique actuel basé sur la croissance et la recherche du profit, et les limites de notre planète. Ils doivent admettre les liens entre crise écologique et crise sociale et renoncer à toute loi ou décision n’allant pas dans le sens de la résolution de cette situation mortifère et injuste. La population doit être informée des risques, des changements à mettre en œuvre, et de leurs contreparties sociales et économiques. Nous demandons aux médias de mener un travail de fond sur les raisons de l’insoutenabilité de nos sociétés, de dire la vérité sur la gravité de la situation et sur la profondeur des changements qu’il va falloir opérer si l’on veut y faire face",
-"DETAILS_3": "L’extermination en cours de la vie sur Terre est d’une ampleur comparable aux grandes extinctions géologiques. La destruction des écosystèmes et des espèces animales et végétales par la surexploitation et la pollution sont une conséquence directe du développement de nos sociétés modernes. Les mesures compensatoires n’enrayent aucunement l’extermination massive en cours. La biodiversité doit être reconnue et respectée pour sa valeur intrinsèque et pas uniquement pour les “services” qu’elle nous rend. Nous nous battons pour que nos sociétés reconnaissent avec humilité leur place au sein de la biosphère et engagent une démarche de restauration écologique à la mesure des dégâts causés.",
-"DETAILS_4": "Ces demandes nécessitent une mobilisation civile et solidaire d’une ampleur et d’une visée comparables à celles déployées en temps de guerre. Les gouvernements qui se sont succédés ces dernières années, aveuglés par une logique de croissance et de court terme, ont montré leur incapacité à s’occuper sérieusement de ces questions. Nous voulons donc que le pouvoir soit rendu aux citoyens. Au niveau local et régional, une démocratie plus vigoureuse et inclusive doit être mise en place. Au niveau national, nous demandons la création d’une assemblée citoyenne souveraine et adaptée à ce changement de société. Celle-ci sera garante du partage équitable de l’effort à accomplir et de la solidarité avec les personnes les plus vulnérables.",
+"MORE_DETAILS": "MORE DETAILS",
+"DETAILS_1": "'Good intentions', 'non-binding agreements' and 'roadmaps' will not change the situation. We intend to force the government to achieve zero net greenhouse gas emissions. 2025. Our survival and that of other species must not depend on hypothetical and far-reaching technological solutions, abandoning the model of current economic growth and mass consumption before we are forced by planetary boundaries. is the only viable option, so we must immediately begin an energy drive and the abandonment of fossil fuels.This policy will have to be brought to international level by binding agreements in order to undertake a global effort to the extent of the stakes.",
+"DETAILS_2": "The government, elected officials and companies must recognize the new threats that weigh on the entire biosphere today, including humans. They must openly assume their share of responsibility for the destruction of ecosystems, climate change, the depletion of natural resources, and recognize the profound incompatibility between the current mode of economic development based on growth and the pursuit of profit, and the limits of our planet. They must admit the links between ecological crisis and social crisis and renounce any law or decision not going in the direction of the resolution of this deadly and unjust situation. The population must be informed of the risks, the changes to be implemented, and their social and economic counterparts. We ask the media to carry out a thorough work on the reasons for the unsustainability of our societies, to tell the truth about the seriousness of the situation and the depth of the changes that will have to be made if we want to face them.",
+"DETAILS_3": "The ongoing extermination of life on Earth is of a magnitude comparable to the great geological extinctions The destruction of ecosystems and animal and plant species by over-exploitation and pollution are a direct consequence of the development of our Compensatory measures in no way hinder the massive extermination that is underway Biodiversity must be recognized and respected for its intrinsic value and not just for the 'services' it gives us - we are fighting for our societies to recognize with humility their place within the biosphere and engage in an ecological restoration process to the extent of the damage caused.",
+"DETAILS_4": "These demands require a civil and solidarity mobilization of a scale and purpose comparable to those deployed in time of war.The governments that have succeeded each other in recent years, blinded by a logic of growth and short In the end, they have shown their inability to deal seriously with these issues, so we want the power to be delivered to citizens, and at the local and regional level, a more vigorous and inclusive democracy needs to be put in place. the creation of a sovereign citizens' assembly adapted to this change of society, which will guarantee equitable sharing of the effort to be made and solidarity with the most vulnerable people. ",
 
-"MEDIA_TO_USE": "MEDIA TO USE"
+"MEDIA_TO_USE": "MEDIA TO USE",
+"ORIGINS": "ORIGINS OF EXTINCTION REBELLION",
+"WHO_1": "creation of RisingUp !, of which Extinction Rebellion was a campaign.",
+"WHO_2": "public launch of Extinction Rebellion : organisation, workshops, meetings, etc. with much interest over several months of preparations",
+"WHO_3": "declaration of Extinction Rebellion at London Parliament Square: A thousand people participate (including the Swedish youth Greta Thunberg, a journalist from the BBC and a deputy from the English Ecological Party)",
+"WHO_4": "protest movement to action de blocage des cinq principaux ponts de Londres (plusieurs milliers de participants) ; c’est le « plus grand mouvement de désobéissance civile depuis des décennies » selon le Guardian (17/11/2018).",
 
+"WHO_1_DATE" : "2016, UK : ",
+"WHO_2_DATE" : "2018, UK : ",
+"WHO_3_DATE" : "31 October 2018 : ",
+"WHO_4_DATE" : "17 November 2018 : ",
+"WHO_5_DATE" : "November 2018 : ",
+
+
+"WHO_WEEK" : "Extinction Rebellion is preparing « International Rebellion Week » from 15th-21st of April 2019.",
+"WHO_BEGINS" : "BEGINNING OF EXTINCTION REBELLION CANADA",
+"WHO_BEGINS_TEXT" : "launch of Extinction Rebellion Canada (or XR Canada), following Extinction Rebellion UK call for the spread of an international movement.",
+
+
+"WHO_TOOLS": "Establishment of secure online tools for interested parties to join Extinction Rebellion Canada and participate in its creation Reflecting the values ​​of decentralization and horizontality brought by XR, these tools are designed to ensure that organization can be generalized to the local groups making up the movement As of March 2019, XR Canada has more than 1000 members. ",
+"WHO_SINCE": "Since November 2018 (call of Extinction Rebellion UK abroad), movements have been formed in USA, Italy, Germany, Australia, New Zealand and already have a web page. Other branches are being formed (Spain, Belgium, Portugal, Brazil, Colombia, Sweden, India ...).",
+"WHO_MOVE": "The movement has adopted the symbol of the current mass extinction (http://extinctionsymbol.info/), representing an hourglass in the middle of the Earth indicating that time is running out for many species ( according to the United Nations, a species disappears every 8 minutes.) It also forms the X of XR.",
+"WHO_SITE": "The Extinction Rebellion International website (https://xrebellion.org/) allows everyone to join the movement even if they can not find a local branch.",
+
+"WHO_GREEN": "Green for ecological combat and black for gravity (color of mourning: species that disappear every day)",
+"WHO_LOGO_NAME" : "LOGO AND NAME",
+"WHO_XR_INTERNATIONAL": "XR GOES INTERNATIONAL",
+"WHO_XR_WORLD": "XR in the world : ",
+
+"MAIN_TITLE" : "WELCOME TO XR!",
+"MAIN_1": "Under our current system, we are headed for disaster. Catastrophic climate change will kill millions, cause food collapse, and render many more homeless. Mass extinction of wild species will lead to ecological collapse. Destruction of natural habitats will lead to genocide of indigenous peoples and the loss of our planet's life support systems.",
+"MAIN_2": "It's not too late to change course - a better future is possible. But governments are consistently failing to take the urgent and decisive action that will save us. If the system will not change, then we must change the system.",
+"MAIN_3": "IT IS OUR SACRED DUTY TO REBEL IN ORDER TO PROTECT OUR HOMES, OUR FUTURE AND THE FUTURE OF ALL LIFE ON EARTH.",
+"MAIN_4": "Social science shows us that peaceful civil disobedience is an effective way to bring about change. Our lives have meaning when we follow our conscience and are willing to make sacrifices to protect what we love.",
+
+"JOIN_EMAIL" : "Join Email List",
+"FIND_LOCAL" : "Find Local Group",
+"":""
 }
 
