@@ -4,6 +4,7 @@ p {
 }
 
 .skulls {
-  background-image: url("https://storage.googleapis.com/xrcanada/xr_skulls.png");
-  background-repeat: repeat
+  background-image: url("https://storage.googleapis.com/xrcanada/xr_tree_banner.png");
+  background-repeat: repeat;
+  background-size: 100% 100%
 }

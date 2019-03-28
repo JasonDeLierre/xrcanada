@@ -2,6 +2,17 @@
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
 
 
-body { margin: 0; 
-      font-family: 'FuturaMediumCTT Normal', arial;
-      }
+body {
+  margin: 0; 
+  font-family: 'fucxed_capsregular', sans-serif;
+}
+
+@font-face {
+  font-family: 'fucxed_capsregular';
+  src: url('../css/fonts/fucxedcaps-webfont-webfont.woff2') format('woff2'),
+        url('../css/fonts/fucxedcaps-webfont-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+
+}

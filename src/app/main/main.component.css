@@ -1,0 +1,6 @@
+.skulls {
+  background-image: url("https://storage.googleapis.com/xrcanada/xr_skulls.png");
+  background-repeat: repeat;
+  -webkit-text-stroke: 3px black;
+
+}
