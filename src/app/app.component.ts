@@ -15,7 +15,7 @@ export class AppComponent {
     private trans: TranslateService
   ){
 
-    trans.setDefaultLang('fr')
+    trans.setDefaultLang('en')
 
   }
 
@@ -35,13 +35,14 @@ export class AppComponent {
       this.router.navigate(['/who'])
     if(x=='d')
       this.router.navigate(['/demands'])
-    
     if(x=='p')
       this.router.navigate(['/principles'])
     if(x=='j')
       this.router.navigate(['/join'])
     if(x=='a')
       this.router.navigate(['/media'])
+    if(x=='v')
+      this.router.navigate(['/provinces'])
 
   }
 }

@@ -11,5 +11,6 @@ export class JoinComponent implements OnInit {
 
   ngOnInit() {
   }
+  
 
 }

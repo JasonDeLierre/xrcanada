@@ -23,6 +23,14 @@ import { PrinciplesComponent } from './principles/principles.component';
 import { DemandsComponent } from './demands/demands.component';
 import { MainComponent } from './main/main.component';
 import { MediaComponent } from './media/media.component';
+import { ProvincesComponent } from './provinces/provinces.component';
+import { QuebecComponent } from './provinces/quebec/quebec.component';
+import { AlbertaComponent } from './provinces/alberta/alberta.component';
+import { BcComponent } from './provinces/bc/bc.component';
+import { OntarioComponent } from './provinces/ontario/ontario.component';
+import { PeiComponent } from './provinces/pei/pei.component';
+import { NovaScotiaComponent } from './provinces/nova-scotia/nova-scotia.component';
+
 
 
 
@@ -34,7 +42,14 @@ import { MediaComponent } from './media/media.component';
     PrinciplesComponent,
     DemandsComponent,
     MainComponent,
-    MediaComponent
+    MediaComponent,
+    ProvincesComponent,
+    QuebecComponent,
+    AlbertaComponent,
+    BcComponent,
+    OntarioComponent,
+    PeiComponent,
+    NovaScotiaComponent
   ],
   imports: [
     BrowserModule,
