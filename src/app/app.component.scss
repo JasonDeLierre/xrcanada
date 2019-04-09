@@ -30,27 +30,41 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 4em;
+  height: 50px;
   width: 100%;
   padding: 0 8em;
   background: $green;
 }
 .header__bar__logo {
-  width: 200px;
+  height: 50px;
   margin-right: 2em;
+  filter: invert(100%);
 }
 .header__bar__fill {
   flex: 1;
 }
-.header__bar__link {
-  background-color: white;
-  padding: 0;
-  margin: 0 1.5em 0 0;
-  min-width: 6em;
+.header__bar__links {
+  height: 50px;
 }
+.header__bar__link {
+  font-family: 'fucxed_capsregular', sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+
+  background-color: transparent;
+  border: none;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  cursor: pointer;
+
+  height: 100%;
+  margin: 0 1em 0 0;
+  transition: all .15s;
+}
+.header__bar__link:hover,
 .header__bar__link--active {
-  color: white;
-  background-color: black;
+  color: $yellow;
+  border-bottom: 5px solid $yellow;
 }
 
 .header__fill {
