@@ -1,38 +1,60 @@
 <!--The content below is only a placeholder and can be replaced.-->
-<div style=background:#3aaa37;height:2em>
-  <div style=float:right;margin-right:4em>
-    <button mat-button style=background:#3aaa37;min-width:1em;color:white (click)="translate('en')">en</button>
+<div class="header__lang">
+  <div class="header__lang__content">
+    <button mat-button (click)="translate('en')">en</button>
     <strong>|</strong>
-    <button mat-button style=background:#3aaa37;min-width:1em;color:white (click)="translate('fr')">fr</button>
+    <button mat-button (click)="translate('fr')">fr</button>
   </div>
 </div>
-<div style="background:#3aaa37;height:4em;position:sticky;top:0;">
-    <img width="200" style=margin-left:8em (click)="route('m')" src="https://storage.googleapis.com/xrcanada/xr-logo-white">
-  <div style=float:right;>
-    <button mat-button style=background:white;margin:1em (click)="route('w')">{{'WHO'|translate}}</button>
-    <button mat-button style=background:white;margin:1em (click)="route('d')">{{'DEMANDS'|translate}}</button>
-    <button mat-button style=background:white;margin:1em (click)="route('p')">{{'PRINCIPLES'|translate}}</button>
-    <button mat-button style=background:white;margin:1em (click)="route('a')">Media</button>
-    <button mat-button style=background:white;margin:1em (click)="route('v')">{{'PROVINCES'|translate}}</button>
-    <button mat-button style=background:white;margin:1em (click)="route('j')">{{'JOIN'|translate}}</button>
-    <!-- <a mat-button style=background:white;margin:1em href="https://actionnetwork.org/forms/join-the-rebellion-3/?fbclid=IwAR0RbLD_oqYazl874FLCqcHvXlSDCUS7AmCHWbs4iSkVTljSShmFbmHluRE">{{'JOIN'|translate}}</a> -->
-    <!-- <a mat-button style=background:white;margin:1em href="https://actionnetwork.org/forms/page-dacceuil-a-xr-qc?source=direct_link">{{'JOIN'|translate}}</a> -->
-  </div>  
-  
+
+<div class="header__bar">
+
+  <img class="header__bar__logo" src="https://storage.googleapis.com/xrcanada/xr-logo-white">
+
+  <div class="header__bar__fill"></div>
+
+  <div class="header__bar__links">
+    <button mat-button class="header__bar__link" [class.header__bar__link--active]="activeRoute === '/'"           (click)="route('/')">{{'HOME'|translate}}</button>
+    <button mat-button class="header__bar__link" [class.header__bar__link--active]="activeRoute === '/demands'"    (click)="route('/demands')">{{'DEMANDS'|translate}}</button>
+    <button mat-button class="header__bar__link" [class.header__bar__link--active]="activeRoute === '/principles'" (click)="route('/principles')">{{'PRINCIPLES'|translate}}</button>
+    <button mat-button class="header__bar__link" [class.header__bar__link--active]="activeRoute === '/who'"        (click)="route('/who')">{{'WHO'|translate}}</button>
+    <button mat-button class="header__bar__link" [class.header__bar__link--active]="activeRoute === '/media'"      (click)="route('/media')">Media</button>
+    <button mat-button class="header__bar__link" [class.header__bar__link--active]="activeRoute === '/provinces'"  (click)="route('/provinces')">{{'PROVINCES'|translate}}</button>
+    <button mat-button class="header__bar__link" [class.header__bar__link--active]="activeRoute === '/join'"       (click)="route('/join')">{{'JOIN'|translate}}</button>
+  </div>
+
 </div>
-<div style=background:#3aaa37;height:2em></div>
+<div class="header__fill"></div>
 
 
 <router-outlet></router-outlet>
 
-<div style=height:20em;background:black;>
-  <div style=text-align:center;padding-top:3em>
-    <a href="https://www.facebook.com/ExtinctionRebellionCanada/" class="fa fa-facebook"></a>
-    <a href="https://twitter.com/xrebelcanada?lang=en" class="fa fa-twitter"></a>
-    <a href="https://www.youtube.com/channel/UCYThdLKE6TDwBJh-qDC6ICA" class="fa fa-youtube"></a>
-    <a href="https://www.instagram.com/extinctionrebellioncanada/?hl=en" class="fa fa-instagram"></a>
+<footer class="footer">
+  <div class="footer__content">
+    <div class="footer__content__main">
+      <div class="footer__links">
+        <a href="https://extinctionrebellion.ca">
+          <i class="fa fa-arrow-circle-right"></i> {{ 'MAIN_SITE' | translate }}
+        </a>
+      </div>
+      <div class="footer__social">
+        <a class="footer__social__link" href="https://www.facebook.com/ExtinctionRebellionCanada/">
+          <i class="footer__icon footer__icon--facebook fa fa-facebook"></i> Facebook
+        </a>
+        <a class="footer__social__link" href="https://twitter.com/xrebelcanada">
+          <i class="footer__icon footer__icon--twitter fa fa-twitter"></i> Twitter
+        </a>
+        <a class="footer__social__link" href="https://www.youtube.com/channel/UCYThdLKE6TDwBJh-qDC6ICA">
+          <i class="footer__icon footer__icon--youtube fa fa-youtube"></i> Youtube
+        </a>
+        <a class="footer__social__link" href="https://www.instagram.com/extinctionrebellioncanada">
+          <i class="footer__icon footer__icon--instagram fa fa-instagram"></i> Instagram
+        </a>
+      </div>
+    </div>
+    <div class="footer__content__copyright">
+      © Extinction Rebellion Canada, 2019
+    </div>
   </div>
-</div>
-
-
+</footer>
 
