@@ -2,7 +2,6 @@
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
 @import "./variables";
 
-
 html, body {
   padding: 0;
   margin: 0;
@@ -15,12 +14,18 @@ app-root {
   min-height: 100%;
 }
 
+* {
+  box-sizing: border-box;
+}
+
+
 /*
  * Typography
  */
 
 h1, h2, h3 {
   font-family: 'fucxed_capsregular', sans-serif;
+  text-transform: uppercase;
 }
 
 @font-face {

@@ -1,15 +1,12 @@
 @import "../styles/_variables.scss";
 
-* {
-  box-sizing: border-box;
-}
-
 /*
  * Header
  */
 
 .header {
 }
+
 .header__lang {
   display: flex;
   align-items: center;
@@ -25,12 +22,14 @@
   color: white;
   min-width: 4em;
 }
+
 .header__bar {
-  position:sticky;
-  top:0;
+  position: sticky;
+  top: 0;
+  z-index: 4;
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
   height: 4em;
   width: 100%;
   padding: 0 8em;
@@ -38,6 +37,7 @@
 }
 .header__bar__logo {
   width: 200px;
+  margin-right: 2em;
 }
 .header__bar__fill {
   flex: 1;
@@ -52,6 +52,7 @@
   color: white;
   background-color: black;
 }
+
 .header__fill {
   background: $green;
   height: 2em
@@ -68,42 +69,51 @@
   background-color: black;
   padding: 3em 0;
 }
+
 .footer a {
   color: #bbb;
   text-transform: uppercase;
   text-decoration: none;
   transition: all .25s;
 }
+
 .footer a:hover {
   color: #eee;
 }
+
 .footer__content {
   font-size: 18px;
   width: 600px;
   margin: auto;
 }
+
 .footer__content__main {
   display: flex;
   flex-direction: row;
 }
+
 .footer__content__copyright {
   opacity: 0.8;
   font-size: 16px;
   padding: 1em 0;
 }
+
 .footer__links {
   flex: 2;
   line-height: 30px;
   font-weight: 600;
 }
+
 .footer__social {
   flex: 1;
 }
+
 .footer__social__link {
   display: flex;
   align-items: center;
   margin-bottom: 1em;
 }
+
 .footer__icon {
   padding: 7px;
   font-size: 18px;
@@ -116,25 +126,31 @@
   height: 30px;
   line-height: 18px;
 }
-.footer__icon:hover{
-  opacity:.7;
+
+.footer__icon:hover {
+  opacity: .7;
 }
+
 .footer__icon--facebook {
   background: #3b5998;
   color: #fff;
 }
+
 .footer__icon--twitter {
   background: #55acee;
   color: #fff;
 }
+
 .footer__icon--youtube {
   background: #b00;
   color: #fff;
 }
+
 .footer__icon--instagram {
   background: #125688;
   color: #fff;
 }
+
 .footer__icon--pinterest {
   background: #cb2027;
   color: #fff;

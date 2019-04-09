@@ -11,8 +11,6 @@
 
   <img class="header__bar__logo" src="https://storage.googleapis.com/xrcanada/xr-logo-white">
 
-  <div class="header__bar__fill"></div>
-
   <div class="header__bar__links">
     <button mat-button class="header__bar__link" [class.header__bar__link--active]="activeRoute === '/'"           (click)="route('/')">{{'HOME'|translate}}</button>
     <button mat-button class="header__bar__link" [class.header__bar__link--active]="activeRoute === '/demands'"    (click)="route('/demands')">{{'DEMANDS'|translate}}</button>
