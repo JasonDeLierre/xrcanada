@@ -1,6 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
-@import "./variables";
+@import "./_variables.scss";
+@import "./typography.scss";
 
 html, body {
   padding: 0;
@@ -19,19 +20,32 @@ app-root {
 }
 
 
-/*
- * Typography
- */
 
-h1, h2, h3 {
-  font-family: 'fucxed_capsregular', sans-serif;
-  text-transform: uppercase;
+ol.big-numbers {
+  list-style-type: none!important;
+  list-style-type: decimal !important;
+  margin: 0;
+  margin-left: 3em;
+  padding: 0;
+  counter-reset: li-counter;
 }
-
-@font-face {
-  font-family: 'fucxed_capsregular';
-  src: url('../../fonts/fucxedcaps-webfont-webfont.woff2') format('woff2'),
-       url('../../fonts/fucxedcaps-webfont-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
+ol.big-numbers>li {
+  position: relative;
+  margin-bottom: 40px;
+  padding-left: 0.5em;
+  min-height: 3em;
+  border-left: 2px solid #cccccc;
+}
+ol.big-numbers>li:before {
+  position: absolute;
+  top: 0;
+  left: -1em;
+  width: 1em;
+  font-family: "fucxed",sans-serif;
+  font-size: 3em;
+  line-height: 1;
+  text-align: center;
+  color: #2e2d2c;
+  content: counter(li-counter);
+  counter-increment: li-counter;
 }

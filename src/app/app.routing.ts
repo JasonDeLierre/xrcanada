@@ -2,7 +2,7 @@
 import { AppComponent } from './app.component';
 import { NgModule }              from '@angular/core';
 import { RouterModule, Routes }  from '@angular/router';
-import { MainComponent } from './main/main.component'
+import { HomeComponent } from './home/home.component'
 import { WhoComponent } from './who/who.component'
 import { JoinComponent } from './join/join.component'
 import { DemandsComponent } from './demands/demands.component'
@@ -20,12 +20,12 @@ import { OntarioComponent } from './provinces/ontario/ontario.component';
 const appRoutes: Routes = [
     {
       path: '',
-      component: MainComponent
+      component: HomeComponent
     },
     {
       path: 'who',
       component: WhoComponent
-    },   
+    },
     {
       path: 'demands',
       component: DemandsComponent
