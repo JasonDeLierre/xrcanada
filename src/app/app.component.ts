@@ -10,7 +10,7 @@ import { TranslateService } from '@ngx-translate/core';
 })
 export class AppComponent {
 
-  private activeRoute: string;
+  public activeRoute: string;
 
   constructor(
     private router: Router,

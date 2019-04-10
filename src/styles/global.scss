@@ -2,6 +2,7 @@
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
 @import "./_variables.scss";
 @import "./typography.scss";
+@import "./layout.scss";
 
 html, body {
   padding: 0;
@@ -21,22 +22,23 @@ app-root {
 
 
 
-ol.big-numbers {
-  list-style-type: none!important;
-  list-style-type: decimal !important;
+.numbered-list {
+  list-style-type: none !important;
+  // list-style-type: decimal !important;
   margin: 0;
   margin-left: 3em;
   padding: 0;
   counter-reset: li-counter;
 }
-ol.big-numbers>li {
+.numbered-list>li {
   position: relative;
   margin-bottom: 40px;
   padding-left: 0.5em;
   min-height: 3em;
   border-left: 2px solid #cccccc;
+  font-size: 18px;
 }
-ol.big-numbers>li:before {
+.numbered-list>li:before {
   position: absolute;
   top: 0;
   left: -1em;

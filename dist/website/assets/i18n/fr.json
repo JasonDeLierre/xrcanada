@@ -1,7 +1,9 @@
 {
+
+"HOME": "Accueil",
 "WHO": "Histoire",
-"DEMANDS": "Revendications", 
-"DEMANDS_TITLE": "NOS REVENDICATIONS", 
+"DEMANDS": "Revendications",
+"DEMANDS_TITLE": "NOS REVENDICATIONS",
 "PRINCIPLES": "Principes",
 "PRINCIPLES_TITLE": "PRINCIPES D'XR",
 "JOIN": "Joignez Nous",
@@ -37,9 +39,9 @@
 "PRINCIPLE_REMARKS_TEXT_6": "La notion d’“essaims”, mentionnée dans la traduction française fait référence au livre Swarmwise - The Tactical Manual To Changing The World qui est un des livres inspirant XR. Sans parler des nombreuses mentions à la technique de swarming utilisée par les membres de XR UK lors de leurs actions.",
 
 "DEMANDS_TITLE_2": "NOUS EXIGEONS",
-"DEMANDS_1": "Le gouvernement doit dire la vérité sur l’urgence climatique et environnementale, inverser les politiques publiques incohérentes avec cet état d’urgence et travailler avec les médias pour tenir les citoyen.nes informé.es.", 
-"DEMANDS_2": "Le gouvernement doit instaurer des mesures politiques contraignantes  pour atteindre la neutralité carbone d’ici 2025, grâce à une décroissance planifiée de la consommation d‘énergies.", 
-"DEMANDS_3": "La création d’une assemblée citoyenne 'provinciale’ (voire nationale) chargée de décider et superviser les mesures à mettre en place pour atteindre ces objectifs et garante d’une transition juste et équitable. ", 
+"DEMANDS_1": "Le gouvernement doit dire la vérité sur l’urgence climatique et environnementale, inverser les politiques publiques incohérentes avec cet état d’urgence et travailler avec les médias pour tenir les citoyen.nes informé.es.",
+"DEMANDS_2": "Le gouvernement doit instaurer des mesures politiques contraignantes  pour atteindre la neutralité carbone d’ici 2025, grâce à une décroissance planifiée de la consommation d‘énergies.",
+"DEMANDS_3": "La création d’une assemblée citoyenne 'provinciale’ (voire nationale) chargée de décider et superviser les mesures à mettre en place pour atteindre ces objectifs et garante d’une transition juste et équitable. ",
 
 "MORE_DETAILS": "PLUS DE DÉTAILS",
 "DETAILS_1": "Le gouvernement, les élus et les entreprises doivent reconnaître les menaces inédites pesant aujourd’hui sur l’ensemble de la biosphère, humains compris. Ils doivent assumer ouvertement leur part de responsabilité dans la destruction des écosystèmes, le changement climatique, l’épuisement des ressources naturelles, et reconnaître l’incompatibilité profonde entre le mode de développement économique actuel basé sur la croissance et la recherche du profit, et les limites de notre planète. Ils doivent admettre les liens entre crise écologique et crise sociale et renoncer à toute loi ou décision n’allant pas dans le sens de la résolution de cette situation mortifère et injuste. La population doit être informée des risques, des changements à mettre en œuvre, et de leurs contreparties sociales et économiques. Nous demandons aux médias de mener un travail de fond sur les raisons de l’insoutenabilité de nos sociétés, de dire la vérité sur la gravité de la situation et sur la profondeur des changements qu’il va falloir opérer si l’on veut y faire face",
@@ -122,6 +124,7 @@
 "MANITOBA": "Manitoba",
 "ONTARIO": "Ontario",
 
+"MAIN_SITE": "Site Principal",
 
 
 "":""
