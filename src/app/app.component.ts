@@ -14,9 +14,13 @@ export class AppComponent {
     private router: Router,
     private trans: TranslateService
   ){
+  
+  console.log('def lang', navigator.language.split('-')[0] )
 
+  if(navigator.language.split('-')[0] == 'fr')
+    trans.setDefaultLang('fr')
+  else
     trans.setDefaultLang('en')
-
   }
 
   translate(x){
