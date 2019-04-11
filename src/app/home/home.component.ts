@@ -16,9 +16,7 @@ export class HomeComponent implements OnInit {
   ngOnInit() {
   }
 
-  join(){
+  join() {
     this.router.navigate(['/join'])
-
   }
-
 }

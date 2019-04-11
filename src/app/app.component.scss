@@ -73,7 +73,13 @@
   height: 2em
 }
 
+/*
+ * Main content
+ */
 
+.main {
+  min-height: calc(100vh - 453.5px); // 453.5px = header + footer height
+}
 
 /*
  * Footer

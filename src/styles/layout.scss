@@ -1,6 +1,18 @@
 @import "./_variables.scss";
 
 
+.title {
+  background-color: black;
+}
+.title h1 {
+  color: white;
+  margin: 0;
+  font-size: 4em;
+  padding: 1em 0;
+  text-align: center;
+}
+
+
 .section {
   width: 800px;
   margin: 0 auto;
