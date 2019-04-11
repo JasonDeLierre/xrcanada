@@ -17,6 +17,10 @@ import { AlbertaComponent } from './provinces/alberta/alberta.component';
 import { OntarioComponent } from './provinces/ontario/ontario.component';
 
 
+/*
+ * NOTE: Updating routes? Don't forget to update the apache config
+ */
+
 const appRoutes: Routes = [
     {
       path: '',
