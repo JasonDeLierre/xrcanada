@@ -1,0 +1,53 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@import "./_variables.scss";
+@import "./typography.scss";
+@import "./layout.scss";
+
+html, body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  min-height: 100%;
+}
+
+app-root {
+  width: 100%;
+  min-height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+.numbered-list {
+  list-style-type: none !important;
+  // list-style-type: decimal !important;
+  margin: 0;
+  margin-left: 3em;
+  padding: 0;
+  counter-reset: li-counter;
+}
+.numbered-list>li {
+  position: relative;
+  margin-bottom: 40px;
+  padding-left: 0.5em;
+  min-height: 3em;
+  border-left: 2px solid #cccccc;
+  font-size: 18px;
+}
+.numbered-list>li:before {
+  position: absolute;
+  top: 0;
+  left: -1em;
+  width: 1em;
+  font-family: "fucxed",sans-serif;
+  font-size: 3em;
+  line-height: 1;
+  text-align: center;
+  color: #2e2d2c;
+  content: counter(li-counter);
+  counter-increment: li-counter;
+}

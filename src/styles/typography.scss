@@ -1,0 +1,58 @@
+@import "./variables";
+
+@font-face {
+  font-family: 'fucxed';
+  src: url('../../fonts/fucxedcaps-webfont-webfont.woff2') format('woff2'),
+       url('../../fonts/fucxedcaps-webfont-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.header-font, h1, h2, h3, .h1, .h2, .h3 {
+  font-family: 'fucxed', sans-serif;
+  text-transform: uppercase;
+}
+
+.h1, .h2, .h3 {
+  display: block;
+}
+
+h1, h2, h3 {
+  color: $darkgray;
+  margin: .5em 0 .25em;
+}
+
+.h1, h1 {
+  font-size: 3.5em;
+  line-height: 1;
+}
+
+.h2, h2 {
+  font-size: 2em;
+  line-height: 1;
+  margin: 1.5em 0 1em;
+}
+
+.h3, h3 {
+  font-size: 1.5em;
+  line-height: 1;
+}
+
+
+p {
+  font-size: 18px;
+}
+
+
+
+.text-center {
+  text-align: center;
+}
+
+
+.text-green {
+  color: $green;
+}
+.text-muted {
+  color: $lightgray;
+}

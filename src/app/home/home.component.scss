@@ -1,0 +1,137 @@
+@import "../../styles/_variables.scss";
+@import "../../styles/_mixins.scss";
+
+
+.home__skulls {
+  background-image: url("https://storage.googleapis.com/xrcanada/xr_skulls.png");
+  background-repeat: repeat;
+  -webkit-text-stroke: 3px black;
+}
+
+.home__hero {
+  color: $green;
+  text-align: center;
+  margin: 0;
+  padding-top: 0.5em;
+  font-size: 120px;
+}
+
+.home__section {
+  width: 800px;
+  margin: 0 auto;
+  padding: 72px 0;
+}
+
+.home__title {
+  text-align: center;
+  margin: 0;
+  padding: 0.5em 0;
+  font-size: 48px;
+}
+
+.home__paragraph {
+  color: rgb(59,56,71);
+  font-size: 20px;
+  line-height: 1.5em;
+}
+
+.home__greenTitle {
+  background-color: $green__dark;
+}
+.home__greenTitle h1 {
+  color: rgb(106, 255, 106);
+  text-align: center;
+  font-size: 48px;
+  line-height: 1.3;
+  padding: 2em 0;
+  width: 850px;
+  margin: 0 auto;
+}
+
+.home__boxes {}
+.home__boxes__row {
+  display: flex;
+}
+.home__boxes__box {
+  width: 50vw;
+  height: 30vw;
+  overflow: hidden;
+  background-color: $black;
+}
+.home__boxes__box--text {
+  padding: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home__boxes__box--text h3 {
+  color: rgb(204, 203, 203);
+  margin: 0;
+  text-align: center;
+  font-size: 30px;
+}
+.home__boxes__box--img {
+  background-size: cover;
+  position: relative;
+}
+.home__boxes__box--img::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.25);
+}
+.home__boxes__box--greta {
+  background-image: url(https://storage.googleapis.com/xrcanada/greta_blue.png);
+}
+.home__boxes__box--rebel {
+  background-image: url(https://storage.googleapis.com/xrcanada/reb4life_blue.png);
+}
+.home__boxes__box--bye {
+  background-image: url(https://storage.googleapis.com/xrcanada/bye_earth.png);
+}
+
+@media (min-width: 0px) {
+  .home__boxes__box--text h3 {
+    font-size: 16px;
+  }
+}
+@media (min-width: 800px) {
+  .home__boxes__box--text h3 {
+    font-size: 20px;
+  }
+}
+@media (min-width: 1150px) {
+  .home__boxes__box--text h3 {
+    font-size: 30px;
+  }
+}
+@media (min-width: 1500px) {
+  .home__boxes__box--text h3 {
+    font-size: 40px;
+  }
+}
+
+
+
+.home__actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home__action:first-child {
+  margin-right: 3em;
+}
+.home__action {
+  @include header-font;
+  font-size: 30px;
+  color: rgb(255, 196, 0);
+  text-decoration: underline;
+  cursor: pointer;
+}
+.home__action h3 {
+  margin: 0;
+  padding: 0;
+}

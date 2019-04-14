@@ -21,7 +21,7 @@ import { WhoComponent } from './who/who.component';
 import { JoinComponent } from './join/join.component';
 import { PrinciplesComponent } from './principles/principles.component';
 import { DemandsComponent } from './demands/demands.component';
-import { MainComponent } from './main/main.component';
+import { HomeComponent } from './home/home.component';
 import { MediaComponent } from './media/media.component';
 import { ProvincesComponent } from './provinces/provinces.component';
 import { QuebecComponent } from './provinces/quebec/quebec.component';
@@ -41,7 +41,7 @@ import { NovaScotiaComponent } from './provinces/nova-scotia/nova-scotia.compone
     JoinComponent,
     PrinciplesComponent,
     DemandsComponent,
-    MainComponent,
+    HomeComponent,
     MediaComponent,
     ProvincesComponent,
     QuebecComponent,

@@ -1,9 +1,10 @@
 
 {
 
+"HOME": "Home",
 "WHO": "History",
-"DEMANDS": "Demands", 
-"DEMANDS_TITLE": "OUR DEMANDS", 
+"DEMANDS": "Demands",
+"DEMANDS_TITLE": "OUR DEMANDS",
 "PRINCIPLES": "Principles",
 "PRINCIPLES_TITLE": "OUR PRINCIPLES",
 "JOIN": "Join Us",
@@ -37,8 +38,8 @@
 "PRINCIPLE_REMARKS_TEXT_6": "The notion of 'swarms' mentioned in the French translation refers to the book Swarmwise - The Tactical Manual to Changing the World which is one of the inspiring books XR.Not to mention the many mentions to the swarming technique used by the members of XR UK in their actions. ",
 
 "DEMANDS_TITLE_2": "WE DEMAND",
-"DEMANDS_1": "That the Government must tell the truth about how deadly our situation is, it must reverse all policies not in alignment with that position and must work alongside the media to communicate the urgency for change including what individuals, communities and businesses need to do.", 
-"DEMANDS_2": "The Government must enact legally-binding policies to reduce carbon emissions in Canada to net zero by 2025 and take further action to remove the excess of atmospheric greenhouse gases. It must cooperate internationally so that the global economy runs on no more than half a planet’s worth of resources per year", 
+"DEMANDS_1": "That the Government must tell the truth about how deadly our situation is, it must reverse all policies not in alignment with that position and must work alongside the media to communicate the urgency for change including what individuals, communities and businesses need to do.",
+"DEMANDS_2": "The Government must enact legally-binding policies to reduce carbon emissions in Canada to net zero by 2025 and take further action to remove the excess of atmospheric greenhouse gases. It must cooperate internationally so that the global economy runs on no more than half a planet’s worth of resources per year",
 "DEMANDS_3": "The creation of a Citizen's Assembly in charge of deciding the measures needed to reach goals and guarantee a just and fair transition.",
 
 "MORE_DETAILS": "MORE DETAILS",
@@ -104,7 +105,7 @@
 
 "BLUE_1": "We are in an ecological disaster which includes a mass species extinction. Our death is possible, the destruction of millions and possibly billions of people, the extinction is possible, the future is not safe.",
 "BLUE_2": "The change to avert the worst disaster is still technically and economically possible. It involves creating a world which is less frenetic and more beautiful; making the necessary changes will also create jobs. This is an emergency situation - action is urgent.",
-"BLUE_3": "Our government isn't acting in accordance with what science and history tell us (eg the rise of fascism). Therefore our government is criminally negligent. ",
+"BLUE_3": "Our government isn't acting in accordance with what science and history tell us. Therefore our government is criminally negligent.",
 
 "JOIN_EMAIL" : "Join Email List",
 "FIND_LOCAL" : "Find Local Group",
@@ -123,7 +124,8 @@
 "MANITOBA": "Manitoba",
 "ONTARIO": "Ontario",
 
-
+"MAIN_SITE": "Main Site",
+"PRINT_POSTER": "Print a poster These files are available in copyleft, please indicate the source 'Extinction Rebellion Quebec' where applicable",
 
 "":""
 }
