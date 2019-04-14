@@ -2,8 +2,8 @@
 
 @font-face {
   font-family: 'fucxed';
-  src: url('../../fonts/fucxedcaps-webfont-webfont.woff2') format('woff2'),
-       url('../../fonts/fucxedcaps-webfont-webfont.woff') format('woff');
+  src: url('../../fonts/fucxedcapslatin-regular-webfont.woff2') format('woff2'),
+       url('../../fonts/fucxedcapslatin-regular-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
@@ -43,6 +43,15 @@ p {
   font-size: 18px;
 }
 
+.text-small {
+  font-size: 16px;
+}
+.text-medium {
+  font-size: 18px;
+}
+.text-large {
+  font-size: 20px;
+}
 
 
 .text-center {

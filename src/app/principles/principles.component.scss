@@ -1,0 +1,26 @@
+@import "../../styles/_variables.scss";
+
+.principles__title {
+  background-image: url("/img/xr-uk-banners.jpg");
+  background-repeat: repeat;
+}
+.principles__title h1 {
+  color: white;
+  padding-top: 2em;
+}
+
+.principles__table td {
+  vertical-align: top;
+}
+.principles__table td:first-child {
+  width: 150px;
+}
+.principles__table h3 {
+  margin: 0;
+}
+.principles__table p {
+  margin: 0 0 1em;
+}
+.principle__bullet {
+  color: $text-muted;
+}

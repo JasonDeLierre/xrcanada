@@ -10,10 +10,8 @@ import { TranslateService } from '@ngx-translate/core';
 })
 export class AppComponent {
 
-  public activeRoute: string;
-
   constructor(
-    private router: Router,
+    public  router: Router,
     private trans: TranslateService
   ){
   
@@ -24,7 +22,6 @@ export class AppComponent {
   else
     trans.setDefaultLang('en')
 
-  this.activeRoute = location.pathname
   }
 
   translate(x) {
@@ -36,6 +33,5 @@ export class AppComponent {
   route(x:string) {
     console.log('x', x)
     this.router.navigate([x])
-    this.activeRoute = x
   }
 }

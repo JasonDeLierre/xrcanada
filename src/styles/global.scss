@@ -47,7 +47,7 @@ app-root {
   font-size: 3em;
   line-height: 1;
   text-align: center;
-  color: #2e2d2c;
+  color: $darkgray; // #2e2d2c;
   content: counter(li-counter);
   counter-increment: li-counter;
 }
