@@ -12,13 +12,13 @@
   <img class="header__bar__logo" src="https://storage.googleapis.com/xrcanada/xr-logo-white">
 
   <div class="header__bar__links">
-    <button class="header__bar__link" [class.header__bar__link--active]="router.location.path() === ''"            (click)="route('/')">{{'HOME'|translate}}</button>
-    <button class="header__bar__link" [class.header__bar__link--active]="router.location.path() === '/demands'"    (click)="route('/demands')">{{'DEMANDS'|translate}}</button>
-    <button class="header__bar__link" [class.header__bar__link--active]="router.location.path() === '/principles'" (click)="route('/principles')">{{'PRINCIPLES'|translate}}</button>
-    <button class="header__bar__link" [class.header__bar__link--active]="router.location.path() === '/who'"        (click)="route('/who')">{{'WHO'|translate}}</button>
-    <button class="header__bar__link" [class.header__bar__link--active]="router.location.path() === '/media'"      (click)="route('/media')">Media</button>
-    <button class="header__bar__link" [class.header__bar__link--active]="router.location.path() === '/provinces'"  (click)="route('/provinces')">{{'PROVINCES'|translate}}</button>
-    <button class="header__bar__link" [class.header__bar__link--active]="router.location.path() === '/join'"       (click)="route('/join')">{{'JOIN'|translate}}</button>
+    <button class="header__bar__link" [class.header__bar__link--active]="router.url === ''"            (click)="route('/')">{{'HOME'|translate}}</button>
+    <button class="header__bar__link" [class.header__bar__link--active]="router.url === '/demands'"    (click)="route('/demands')">{{'DEMANDS'|translate}}</button>
+    <button class="header__bar__link" [class.header__bar__link--active]="router.url === '/principles'" (click)="route('/principles')">{{'PRINCIPLES'|translate}}</button>
+    <button class="header__bar__link" [class.header__bar__link--active]="router.url === '/who'"        (click)="route('/who')">{{'WHO'|translate}}</button>
+    <button class="header__bar__link" [class.header__bar__link--active]="router.url === '/media'"      (click)="route('/media')">Media</button>
+    <button class="header__bar__link" [class.header__bar__link--active]="router.url === '/provinces'"  (click)="route('/provinces')">{{'PROVINCES'|translate}}</button>
+    <button class="header__bar__link" [class.header__bar__link--active]="router.url === '/join'"       (click)="route('/join')">{{'JOIN'|translate}}</button>
   </div>
 
 </div>
