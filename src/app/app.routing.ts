@@ -1,3 +1,4 @@
+import { DonateqcComponent } from './provinces/quebec/donateqc/donateqc.component';
 
 import { AppComponent } from './app.component';
 import { NgModule }              from '@angular/core';
@@ -52,7 +53,22 @@ const appRoutes: Routes = [
     },
     {
       path: 'quebec',
-      component: QuebecComponent
+      children:
+      [   
+        { 
+          path: '',
+          component: QuebecComponent,
+        },     
+        { 
+          path: 'donate',
+          component: DonateqcComponent,
+        },
+        {
+          path: '**',
+          redirectTo: 'quebec',
+          pathMatch: 'full'
+        }
+      ]
     },
     {
       path: 'ontario',
@@ -74,7 +90,6 @@ const appRoutes: Routes = [
       path: 'pei',
       component: PeiComponent
     },
-
     {
       path: '**',
       redirectTo: '/',

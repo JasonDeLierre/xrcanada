@@ -30,6 +30,7 @@ import { BcComponent } from './provinces/bc/bc.component';
 import { OntarioComponent } from './provinces/ontario/ontario.component';
 import { PeiComponent } from './provinces/pei/pei.component';
 import { NovaScotiaComponent } from './provinces/nova-scotia/nova-scotia.component';
+import { DonateqcComponent } from './provinces/quebec/donateqc/donateqc.component';
 
 
 
@@ -49,7 +50,8 @@ import { NovaScotiaComponent } from './provinces/nova-scotia/nova-scotia.compone
     BcComponent,
     OntarioComponent,
     PeiComponent,
-    NovaScotiaComponent
+    NovaScotiaComponent,
+    DonateqcComponent
   ],
   imports: [
     BrowserModule,
