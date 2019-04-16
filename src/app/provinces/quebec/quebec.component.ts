@@ -1,12 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 
-let nextId = 1;
-
 @Component({
   selector: 'app-quebec',
   templateUrl: './quebec.component.html',
-  styleUrls: ['./quebec.component.css']
+  styleUrls: ['./quebec.component.scss']
 })
 export class QuebecComponent implements OnInit {
 
@@ -16,11 +14,4 @@ export class QuebecComponent implements OnInit {
 
   ngOnInit() {
   }
-
-  donate(){
-    this.router.navigate(['/quebec/donate'])
-    console.log('yip')
-
-  }
-
 }

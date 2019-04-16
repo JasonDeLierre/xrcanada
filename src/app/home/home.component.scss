@@ -127,7 +127,7 @@
 .home__action {
   @include header-font;
   font-size: 30px;
-  color: rgb(255, 196, 0);
+  color: $yellow__saturated;
   text-decoration: underline;
   cursor: pointer;
 }

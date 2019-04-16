@@ -18,6 +18,12 @@
   margin: 0 auto;
   padding: 72px 0;
 }
+.section--paddingSmall {
+  padding: 24px 0;
+}
+.section--noPadding {
+  padding: 0;
+}
 .section > *:first-child {
   margin-top: 0;
 }
