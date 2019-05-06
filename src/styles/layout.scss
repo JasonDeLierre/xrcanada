@@ -14,7 +14,7 @@
 
 
 .section {
-  width: 800px;
+  max-width: 800px;
   margin: 0 auto;
   padding: 72px 0;
 }
@@ -27,4 +27,3 @@
 .section > *:first-child {
   margin-top: 0;
 }
-
