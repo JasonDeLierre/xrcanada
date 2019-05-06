@@ -39,7 +39,7 @@
   background-color: $green__dark;
 }
 .home__greenTitle h1 {
-  color: rgb(106, 255, 106);
+  color: rgb(140, 223, 140);
   text-align: center;
   font-size: 48px;
   line-height: 1.3;
@@ -53,8 +53,8 @@
   display: flex;
 }
 .home__boxes__box {
-  width: 50vw;
-  height: 30vw;
+  width: 33vw;
+  height: 20vw;
   overflow: hidden;
   background-color: $black;
 }
@@ -126,8 +126,8 @@
 }
 .home__action {
   @include header-font;
-  font-size: 30px;
-  color: $yellow__saturated;
+  font-size: 40px;
+  color:#d4a326;
   text-decoration: underline;
   cursor: pointer;
 }

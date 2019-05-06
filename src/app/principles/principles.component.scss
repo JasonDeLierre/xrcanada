@@ -3,10 +3,12 @@
 .principles__title {
   background-image: url("/img/xr-uk-banners.jpg");
   background-repeat: repeat;
+  -webkit-text-stroke: 3px black;
+
 }
 .principles__title h1 {
   color: white;
-  padding-top: 2em;
+  padding-top: 1em;
 }
 
 .principles__table td {
