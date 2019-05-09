@@ -3,7 +3,7 @@
 
 
 .home__skulls {
-  background-image: url("https://storage.googleapis.com/xrcanada/xr_skulls.png");
+  background-image: url("https://extinctionrebellion.ca/xr_pics/xr_skulls.png");
   background-repeat: repeat;
   -webkit-text-stroke: 3px black;
 }
@@ -58,13 +58,14 @@
   overflow: hidden;
   background-color: $black;
 }
+
 .home__boxes__box--text {
   padding: 2em;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.home__boxes__box--text h3 {
+.home__boxes__box--text h4 {
   color: rgb(204, 203, 203);
   margin: 0;
   text-align: center;
@@ -84,19 +85,30 @@
   background-color: rgba(0, 0, 0, 0.25);
 }
 .home__boxes__box--greta {
-  background-image: url(https://storage.googleapis.com/xrcanada/greta_blue.png);
+  background-image: url(https://extinctionrebellion.ca/xr_pics/greta_blue.png);
 }
 .home__boxes__box--rebel {
-  background-image: url(https://storage.googleapis.com/xrcanada/reb4life_blue.png);
+  background-image: url(https://extinctionrebellion.ca/xr_pics/reb4life_blue.png);
 }
 .home__boxes__box--bye {
-  background-image: url(https://storage.googleapis.com/xrcanada/bye_earth.png);
+  background-image: url(https://extinctionrebellion.ca/xr_pics/bye_earth.png);
 }
 
 @media (min-width: 0px) {
-  .home__boxes__box--text h3 {
-    font-size: 16px;
+  .home__boxes__box--text h4 {
+    font-size: 10px;
   }
+
+  .home__greenTitle h1 {
+    font-size: 30px;
+  }
+
+  .home__boxes__box {
+    width: 50vw;
+    height: 50vw;
+
+  }
+
 }
 
 @media (min-width: 600px) {
@@ -107,21 +119,36 @@
     font-size: 120px;
     padding-top: 0.5em;
   }
+
+  .home__boxes__box--text h4 {
+    font-size: 10px;
+  }
+
+
+  .home__greenTitle h1 {
+    font-size: 30px;
+  }
+
+  .home__boxes__box {
+    width: 50vw;
+    height: 50vw;
+
+  }
 }
 @media (min-width: 800px) {
 
-  .home__boxes__box--text h3 {
+  .home__boxes__box--text h4 {
     font-size: 20px;
   }
 }
 @media (min-width: 1150px) {
-  .home__boxes__box--text h3 {
-    font-size: 30px;
+  .home__boxes__box--text h4 {
+    font-size: 25px;
   }
 }
 @media (min-width: 1500px) {
-  .home__boxes__box--text h3 {
-    font-size: 40px;
+  .home__boxes__box--text h4 {
+    font-size: 30px;
   }
 }
 

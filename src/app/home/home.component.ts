@@ -9,9 +9,15 @@ import { Router } from '@angular/router';
 })
 export class HomeComponent implements OnInit {
 
+  isMobile = false
+
   constructor(
     private router: Router
-  ) { }
+  ) { 
+    if(screen.width < 800)
+      this.isMobile = true
+      console.log('heck ya!')
+  }
 
   ngOnInit() {
   }

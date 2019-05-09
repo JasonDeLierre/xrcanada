@@ -17,17 +17,16 @@
   </h1>
 </div>
 
-<div class=home__boxes>
-
+<div *ngIf=!isMobile class=home__boxes>
   <div class=home__boxes__row>
-    <div style=color:white;font-size:20px class="home__boxes__box home__boxes__box--text"><h4>{{'BLUE_1'|translate}}</h4></div>
+    <div class="home__boxes__box home__boxes__box--text"><h4>{{'BLUE_1'|translate}}</h4></div>
     <div class="home__boxes__box home__boxes__box--img home__boxes__box--greta"></div>
-    <div style=color:white;font-size:20px class="home__boxes__box home__boxes__box--text"><h4>{{'BLUE_3'|translate}}</h4></div>
+    <div class="home__boxes__box home__boxes__box--text"><h4>{{'BLUE_3'|translate}}</h4></div>
   </div>
 
   <div class=home__boxes__row>
     <div class="home__boxes__box home__boxes__box--img home__boxes__box--rebel"></div>
-    <div style=color:white;font-size:20px class="home__boxes__box home__boxes__box--text"><h4>{{'BLUE_2'|translate}}</h4></div>
+    <div class="home__boxes__box home__boxes__box--text"><h4>{{'BLUE_2'|translate}}</h4></div>
     <div class="home__boxes__box home__boxes__box--img home__boxes__box--bye"></div>
   </div>
 
@@ -36,6 +35,23 @@
 
 </div>
 
+<div *ngIf=isMobile class=home__boxes>
+  <div class=home__boxes__row>
+    <div class="home__boxes__box home__boxes__box--text"><h4>{{'BLUE_1'|translate}}</h4></div>
+    <div class="home__boxes__box home__boxes__box--img home__boxes__box--greta"></div>
+  </div>
+
+  <div class=home__boxes__row>
+    <div class="home__boxes__box home__boxes__box--img home__boxes__box--rebel"></div>
+    <div class="home__boxes__box home__boxes__box--text"><h4>{{'BLUE_3'|translate}}</h4></div>
+  </div>
+
+  <div class=home__boxes__row>
+      <div class="home__boxes__box home__boxes__box--text"><h4>{{'BLUE_2'|translate}}</h4></div>
+      <div class="home__boxes__box home__boxes__box--img home__boxes__box--bye"></div>
+  </div>
+
+</div>
 
 <div class=home__section>
   <br>
