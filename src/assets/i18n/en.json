@@ -134,10 +134,11 @@
 "PRINT_POSTER": "Print a poster These files are available in copyleft, please indicate the source 'Extinction Rebellion Quebec' where applicable",
 "SOCIAL_MEDIA": "Social Media",
 
+"QC_TITLE_1": "XR QUEBEC",
 "QC_TITLE_1.1": "REBEL FOR ",
 "QC_TITLE_1.2": "LIFE",
 "QC_TITLE_2": "GET ENGAGED", 
-"QC_TITLE_2.1": "JOIN US!",
+"QC_TITLE_2.5": "JOIN US!",
 "QC_TITLE_3": "DONATE", 
 "QC_TITLE_4": "TAKE INITIATIVE", 
 "QC_TITLE_5": "PRESS", 
@@ -145,9 +146,11 @@
 
 "QC_TEXT_1": "We are facing an unprecedented global emergency. Governments have failed to protect us despite known and advocated solutions. It is therefore our duty to act as quickly as possible.",
 "QC_TEXT_2": "Do you want to join our organizing team and get things done? Besides participating in actions, helping to organize them or forming a local group are also ways to get involved. The time and variety of talents you have are appreciated.",
-"QC_TEXT_2.1": "(or contact us at",
+"QC_TEXT_2.1": "An introductory document for those who want to get engaged is available: ",
+
+"QC_TEXT_2.5": "(or contact us at",
 "QC_TEXT_3": "XR Quebec is a non-profit association. Donations help us organize, recruit professional help when needed and create materials for our actions.",
-"QC_TEXT_3.1": "Make a Donation",
+"QC_TEXT_3.5": "Make a Donation",
 "QC_TEXT_4.1": "Create a trusted local group and invent your own actions. You do not need to ask permission as long as you agree with our principles and values:",
 "QC_TEXT_4.2": "With Love and Rage",
 "QC_TEXT_4.3": "Extinction Rebellion Quebec",
