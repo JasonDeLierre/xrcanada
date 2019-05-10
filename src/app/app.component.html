@@ -19,6 +19,7 @@
     <button class="header__bar__link" [class.header__bar__link--active]="router.url === '/media'"      (click)="route('/media')">Media</button>
     <button class="header__bar__link" [class.header__bar__link--active]="router.url === '/provinces'"  (click)="route('/provinces')">{{'PROVINCES'|translate}}</button>
     <button class="header__bar__link" [class.header__bar__link--active]="router.url === '/join'"       (click)="route('/join')">{{'JOIN'|translate}}</button>
+    <button class="header__bar__link" (click)="onBlog()">Blog</button>
   </div>
 
 </div>

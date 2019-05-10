@@ -34,4 +34,8 @@ export class AppComponent {
     console.log('x', x)
     this.router.navigate([x])
   }
+
+  onBlog(){
+    window.open("https://blog.extinctionrebellion.ca", "_blank");
+  }
 }
