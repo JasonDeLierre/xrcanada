@@ -31,6 +31,7 @@ import { OntarioComponent } from './provinces/ontario/ontario.component';
 import { PeiComponent } from './provinces/pei/pei.component';
 import { NovaScotiaComponent } from './provinces/nova-scotia/nova-scotia.component';
 import { DonateqcComponent } from './provinces/quebec/donateqc/donateqc.component';
+import { DataPrivacyPolicyComponent } from './data-privacy-policy/data-privacy-policy.component';
 
 
 
@@ -51,7 +52,8 @@ import { DonateqcComponent } from './provinces/quebec/donateqc/donateqc.componen
     OntarioComponent,
     PeiComponent,
     NovaScotiaComponent,
-    DonateqcComponent
+    DonateqcComponent,
+    DataPrivacyPolicyComponent
   ],
   imports: [
     BrowserModule,

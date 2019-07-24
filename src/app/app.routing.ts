@@ -16,6 +16,7 @@ import { NovaScotiaComponent } from './provinces/nova-scotia/nova-scotia.compone
 import { BcComponent } from './provinces/bc/bc.component';
 import { AlbertaComponent } from './provinces/alberta/alberta.component';
 import { OntarioComponent } from './provinces/ontario/ontario.component';
+import { DataPrivacyPolicyComponent } from './data-privacy-policy/data-privacy-policy.component';
 
 
 /*
@@ -48,18 +49,22 @@ const appRoutes: Routes = [
       component: JoinComponent
     },
     {
+      path: 'data-privacy-policy',
+      component: DataPrivacyPolicyComponent
+    },
+    {
       path: 'provinces',
       component: ProvincesComponent
     },
     {
       path: 'quebec',
       children:
-      [   
-        { 
+      [
+        {
           path: '',
           component: QuebecComponent,
-        },     
-        { 
+        },
+        {
           path: 'donate',
           component: DonateqcComponent,
         },
